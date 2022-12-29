@@ -8,9 +8,9 @@ Add this dependency to your project's POM:
 
 ```xml
 <dependency>
-  <groupId>com.twitter</groupId>
-  <artifactId>twitter-api-java-sdk</artifactId>
-  <version>2.0.3</version>
+  <groupId>io.github.keithjohn</groupId>
+  <artifactId>the-one-sdk</artifactId>
+  <version>1.0-SNAPSHOT</version>
 </dependency>
 ```
 
