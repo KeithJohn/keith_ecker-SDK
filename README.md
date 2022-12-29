@@ -10,7 +10,7 @@ Add this dependency to your project's POM:
 <dependency>
   <groupId>io.github.keithjohn</groupId>
   <artifactId>the-one-sdk</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0</version>
 </dependency>
 ```
 
