@@ -1,68 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.keithecker.theonesdk.TheOneSDKTest" time="1.214" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.keithecker.theonesdk.TheOneSDKTest" time="1.823" tests="4" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="sun.desktop" value="windows"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Projects\keith_ecker-SDK\target\test-classes;C:\Projects\keith_ecker-SDK\target\classes;C:\Users\keith\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\keith\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\keith\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;C:\Users\keith\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;C:\Users\keith\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;"/>
-    <property name="java.vm.vendor" value="Red Hat, Inc."/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/mnt/c/Projects/keith_ecker-SDK/target/test-classes:/mnt/c/Projects/keith_ecker-SDK/target/classes:/home/keithjohn/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/keithjohn/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/keithjohn/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.1/jackson-databind-2.14.1.jar:/home/keithjohn/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.1/jackson-annotations-2.14.1.jar:/home/keithjohn/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.1/jackson-core-2.14.1.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://access.redhat.com/"/>
-    <property name="user.timezone" value="America/Chicago"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="user.country" value="US"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="C:\Installs\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\keith\AppData\Local\Temp\surefire4716571425400615413\surefirebooter8697350465168170561.jar C:\Users\keith\AppData\Local\Temp\surefire4716571425400615413 2022-12-28T17-21-26_623-jvmRun1 surefire3498843281570862299tmp surefire_04810975578333178038tmp"/>
-    <property name="surefire.test.class.path" value="C:\Projects\keith_ecker-SDK\target\test-classes;C:\Projects\keith_ecker-SDK\target\classes;C:\Users\keith\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\keith\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\keith\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.1\jackson-databind-2.14.1.jar;C:\Users\keith\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.1\jackson-annotations-2.14.1.jar;C:\Users\keith\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.1\jackson-core-2.14.1.jar;"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/mnt/c/Projects/keith_ecker-SDK/target/surefire/surefirebooter9567815644575094130.jar /mnt/c/Projects/keith_ecker-SDK/target/surefire 2022-12-28T17-59-38_623-jvmRun1 surefire9647277644604220146tmp surefire_08580629592734871102tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/mnt/c/Projects/keith_ecker-SDK/target/test-classes:/mnt/c/Projects/keith_ecker-SDK/target/classes:/home/keithjohn/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/keithjohn/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/keithjohn/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.14.1/jackson-databind-2.14.1.jar:/home/keithjohn/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.14.1/jackson-annotations-2.14.1.jar:/home/keithjohn/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.14.1/jackson-core-2.14.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\keith"/>
+    <property name="user.home" value="/home/keithjohn"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.home" value="C:\Installs\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\jre"/>
-    <property name="basedir" value="C:\Projects\keith_ecker-SDK"/>
-    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/mnt/c/Projects/keith_ecker-SDK"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\keith\AppData\Local\Temp\surefire4716571425400615413\surefirebooter8697350465168170561.jar"/>
-    <property name="sun.boot.class.path" value="C:\Installs\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\jre\lib\resources.jar;C:\Installs\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\jre\lib\rt.jar;C:\Installs\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\jre\lib\sunrsasign.jar;C:\Installs\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\jre\lib\jsse.jar;C:\Installs\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\jre\lib\jce.jar;C:\Installs\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\jre\lib\charsets.jar;C:\Installs\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\jre\lib\jfr.jar;C:\Installs\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\jre\classes"/>
-    <property name="user.script" value=""/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/mnt/c/Projects/keith_ecker-SDK/target/surefire/surefirebooter9567815644575094130.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="1.8.0_352-b08"/>
-    <property name="user.name" value="keith"/>
-    <property name="path.separator" value=";"/>
-    <property name="os.version" value="10.0"/>
-    <property name="java.endorsed.dirs" value="C:\Installs\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\jre\lib\endorsed"/>
+    <property name="java.runtime.version" value="11.0.17+8-post-Ubuntu-1ubuntu220.04"/>
+    <property name="user.name" value="keithjohn"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.10.102.1-microsoft-standard-WSL2"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="file.encoding" value="Cp1252"/>
+    <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="localRepository" value="C:\Users\keith\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="https://bugzilla.redhat.com/enter_bug.cgi"/>
-    <property name="java.io.tmpdir" value="C:\Users\keith\AppData\Local\Temp\"/>
-    <property name="java.version" value="1.8.0_352"/>
-    <property name="user.dir" value="C:\Projects\keith_ecker-SDK"/>
+    <property name="localRepository" value="/home/keithjohn/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.17"/>
+    <property name="user.dir" value="/mnt/c/Projects/keith_ecker-SDK"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Installs\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Installs\Git\cmd;C:\Installs\Go\bin;C:\Installs\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\bin;C:\Installs\apache-maven-3.8.6\bin;C:\Users\keith\.cargo\bin;C:\Users\keith\AppData\Local\Microsoft\WindowsApps;C:\Users\keith\AppData\Local\Programs\Microsoft VS Code\bin;C:\Installs\Github CLI\;C:\Users\keith\go\bin;C:\Installs\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\bin;C:\Installs\apache-maven-3.8.6\bin;;."/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.vendor" value="Red Hat, Inc."/>
-    <property name="java.vm.version" value="25.352-b08"/>
-    <property name="java.specification.maintenance.version" value="4"/>
-    <property name="java.ext.dirs" value="C:\Installs\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\java-1.8.0-openjdk-1.8.0.352-2.b08.redhat.windows.x86_64\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.17+8-post-Ubuntu-1ubuntu220.04"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="52.0"/>
+    <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testGetAllBooks" classname="com.keithecker.theonesdk.TheOneSDKTest" time="0.815"/>
-  <testcase name="testGetAllBooksFiltered" classname="com.keithecker.theonesdk.TheOneSDKTest" time="0.129"/>
-  <testcase name="testGetAllBooksPagination" classname="com.keithecker.theonesdk.TheOneSDKTest" time="0.127"/>
-  <testcase name="testGetAllBooksSorted" classname="com.keithecker.theonesdk.TheOneSDKTest" time="0.127"/>
+  <testcase name="testGetAllBooks" classname="com.keithecker.theonesdk.TheOneSDKTest" time="1.371"/>
+  <testcase name="testGetAllBooksFiltered" classname="com.keithecker.theonesdk.TheOneSDKTest" time="0.127"/>
+  <testcase name="testGetAllBooksPagination" classname="com.keithecker.theonesdk.TheOneSDKTest" time="0.125"/>
+  <testcase name="testGetAllBooksSorted" classname="com.keithecker.theonesdk.TheOneSDKTest" time="0.13"/>
 </testsuite>
