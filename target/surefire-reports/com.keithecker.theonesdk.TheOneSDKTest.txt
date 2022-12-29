@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.keithecker.theonesdk.TheOneSDKTest
--------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.823 s - in com.keithecker.theonesdk.TheOneSDKTest
